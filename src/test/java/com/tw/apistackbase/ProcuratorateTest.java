@@ -1,7 +1,7 @@
 package com.tw.apistackbase;
 
-import com.tw.apistackbase.dao.ProcuratorateRepository;
-import com.tw.apistackbase.entity.Procuratorate;
+import com.tw.apistackbase.repo.ProcuratorateRepository;
+import com.tw.apistackbase.theCase.Procuratorate;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

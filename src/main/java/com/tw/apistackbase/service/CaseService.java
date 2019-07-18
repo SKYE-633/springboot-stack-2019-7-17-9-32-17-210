@@ -1,11 +1,10 @@
 package com.tw.apistackbase.service;
 
-import com.tw.apistackbase.dao.CaseRepository;
-import com.tw.apistackbase.entity.Case;
+import com.tw.apistackbase.repo.CaseRepository;
+import com.tw.apistackbase.theCase.Case;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Calendar;
 import java.util.List;
 
 @Service

@@ -1,13 +1,9 @@
 package com.tw.apistackbase.service;
 
-import com.tw.apistackbase.dao.CaseRepository;
-import com.tw.apistackbase.dao.InquisitorRepository;
-import com.tw.apistackbase.entity.Case;
-import com.tw.apistackbase.entity.Inquisitor;
+import com.tw.apistackbase.repo.InquisitorRepository;
+import com.tw.apistackbase.theCase.Inquisitor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class InquisitorService {

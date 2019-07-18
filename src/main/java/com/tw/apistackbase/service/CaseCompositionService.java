@@ -1,9 +1,8 @@
 package com.tw.apistackbase.service;
 
-import com.tw.apistackbase.dao.CaseCompositionRepository;
-import com.tw.apistackbase.entity.Case;
-import com.tw.apistackbase.entity.CaseComposition;
-import com.tw.apistackbase.utils.ObjectJudge;
+import com.tw.apistackbase.repo.CaseCompositionRepository;
+import com.tw.apistackbase.theCase.CaseComposition;
+import com.tw.apistackbase.judge.ObjectJudge;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

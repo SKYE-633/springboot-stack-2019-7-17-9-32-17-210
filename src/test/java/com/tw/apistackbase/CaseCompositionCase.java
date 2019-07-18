@@ -1,19 +1,14 @@
 package com.tw.apistackbase;
 
-import com.tw.apistackbase.dao.CaseCompositionRepository;
-import com.tw.apistackbase.dao.CaseRepository;
-import com.tw.apistackbase.dao.ProcuratorateRepository;
-import com.tw.apistackbase.entity.Case;
-import com.tw.apistackbase.entity.CaseComposition;
-import com.tw.apistackbase.entity.Procuratorate;
+import com.tw.apistackbase.repo.CaseCompositionRepository;
+import com.tw.apistackbase.repo.CaseRepository;
+import com.tw.apistackbase.theCase.Case;
+import com.tw.apistackbase.theCase.CaseComposition;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-
-import java.util.Calendar;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;

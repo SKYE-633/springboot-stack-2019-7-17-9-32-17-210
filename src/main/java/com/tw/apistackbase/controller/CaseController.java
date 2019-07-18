@@ -1,6 +1,6 @@
 package com.tw.apistackbase.controller;
 
-import com.tw.apistackbase.entity.Case;
+import com.tw.apistackbase.theCase.Case;
 import com.tw.apistackbase.service.CaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
